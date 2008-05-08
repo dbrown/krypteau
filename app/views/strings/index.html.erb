@@ -1,0 +1,28 @@
+<h2>Encrypt a String</h2>
+<% form_tag( :action => url( :controller => "strings", :action => "encrypt" ) ) do %>
+	Select Key: <select id="krypteaukey" name="krypteaukey">
+	    <% @krypteaukeys.each do |krypteaukey| -%>
+	      <option value="<%= krypteaukey.id %>"><%= krypteaukey.name %></option>
+	    <% end -%>
+	</select>
+	<br/><br/>
+	Text: <%= text_field( :name => "text", :size => 40 ) %>
+	<br/><br/>
+	<%= submit_button( "Encrypt!" ) %>
+<% end %>
+
+<br/>
+<hr>
+<br/>
+<h2>Decrypt a String</h2>
+<% form_tag( :action => url( :controller => "strings", :action => "decrypt" ) ) do %>
+	Select Key: <select id="krypteaukey" name="krypteaukey">
+	    <% @krypteaukeys.each do |krypteaukey| -%>
+	      <option value="<%= krypteaukey.id %>"><%= krypteaukey.name %></option>
+	    <% end -%>
+	</select>
+	<br/><br/>
+	Text: <%= text_field( :name => "text", :size => 40 ) %>
+	<br/><br/>
+	<%= submit_button( "Decrypt!" ) %>
+<% end %>

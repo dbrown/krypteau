@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Website short description." />
+<meta name="keywords" content="website main keywords" />
+	<title>Simple Beauty</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header"><h1>Simple Beauty H1 Title or Logo</h1></div>
+
+<div id="sub_header">... your slogan or tag line here</div>
+
+<div id="main_content_top"></div>
+
+<div id="main_content">
+
+<div class="content">
+<h2>Simple Beauty H2 SubTitle</h2>
+<p>This site design is open source, so feel free to use it as you want, but you must keep the link "Design by Pikanai.com" live on the design. Enjoy!</p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus non erat eu dui dignissim dictum. Integer iaculis nulla at nisl. Proin ut enim non ipsum varius laoreet. Integer feugiat, ante fringilla blandit convallis, leo sapien egestas velit, non condimentum nulla sem vitae risus. Mauris aliquam auctor quam. Sed ac enim. Donec mattis dui id ligula. Integer vel sem eget ante cursus tristique. Nullam vel orci vitae sem interdum placerat. In eget lectus. Donec blandit. Quisque lacus urna, malesuada vel, mollis sit amet, rutrum nec, est. Proin blandit ornare nibh. Duis et felis.</p>
+<p class="quote">There could be your favourite quote or slogan.</p>
+<p>Fusce euismod nisi at libero malesuada consectetuer. Proin laoreet, nunc quis hendrerit gravida, neque leo placerat sapien, et semper tortor leo et urna. Ut tincidunt posuere tortor. Sed tristique, odio at luctus facilisis, nulla quam rhoncus tortor, at congue lacus elit nec metus. Sed tempor sapien ut elit. Donec ac turpis feugiat nisi porta vehicula.</p>
+<h2>H2 SubTitle #2</h2>
+<p>Aenean eu lorem at odio placerat fringilla. Cras faucibus velit quis dui. Proin scelerisque orci nec arcu. Pellentesque cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam mattis iaculis purus. Curabitur velit. Vivamus et diam pharetra elit auctor molestie. Suspendisse potenti. Praesent enim. Vivamus at magna. Ut et dolor eu erat facilisis sollicitudin. Duis sed ante. Suspendisse lorem. Suspendisse mollis, dolor sit amet pellentesque sodales, diam risus adipiscing diam, vel ornare lorem pede ac ipsum.</p>
+</div>
+
+<div class="menu">
+<div class="menu_title">Main menu</div>
+<ul>
+<li><a href="#" class="menu_link">About me</a></li>
+<li><a href="#" class="menu_link">Contact me</a></li>
+</ul>
+<div class="menu_title">Sub menu</div>
+<ul>
+<li><a href="http://www.pikanai.com" class="menu_link">Pikanai</a></li>
+</ul>
+<div class="menu_title">Friends</div>
+<ul>
+<li><a href="http://www.oswd.org" class="menu_link">OSWD</a></li>
+<li><a href="http://www.opendesigns.org" class="menu_link">Open Designs</a></li>
+</ul>
+</div>
+
+<div id="clear"></div>
+
+</div>
+
+<div id="main_content_bottom">
+</div>
+
+<div id="footer"><strong>Copyright &copy; 2007</strong> | <a href="#">Your Site</a> | <b>Design by</b> <a href="http://www.pikanai.com">Pikanai.com</a></div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<h2>Encrypt a File</h2>
+
+<p>Upload a new file</p>
+<form action="/files/encrypt" method="post" enctype="multipart/form-data">
+  <fieldset>
+  <input type="file" name="file" size="80"/>
+
+  Select Key: <select id="krypteaukey" name="krypteaukey">
+	<% @krypteaukeys.each do |krypteaukey| -%>
+	  <option value="<%= krypteaukey.id %>"><%= krypteaukey.name %></option>
+	<% end -%>
+  </select>
+<br/><br/>
+
+  <input type="submit" value="Upload"/>
+  </fieldset>
+</form>
+

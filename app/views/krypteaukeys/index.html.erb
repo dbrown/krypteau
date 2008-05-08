@@ -1,0 +1,19 @@
+<h2>Key Management</h2>
+<h3>Keys</h3>
+<div id="krypteaukeys" class="container">
+    <%= partial( "/shared/krypteaukey", :with => @krypteaukeys ) %>
+</div>
+<br/>
+<hr>
+<br/>
+<h3>Create a Key:</h3>
+<% form_tag( :action => url( :controller => "krypteaukeys", :action => "create" ) ) do %>
+    Name: <%= text_field( :name => "name", :size => 40 ) %><br/>
+	Algorithm: <select id="algorithm" name="algorithm">
+	    <% @ciphers.each do |cipher| -%>
+	      <option value="<%= cipher %>"><%= cipher %></option>
+	    <% end -%>
+	</select>
+	<br/><br/>
+	<%= submit_button( "Create Key!" ) %>
+<% end %>
